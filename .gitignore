@@ -1,0 +1,24 @@
+# --- IGNORE HEAVY MODELS ---
+tts_models/
+TTS/
+*.pth
+*.pt
+*.bin
+*.h5
+
+# --- IGNORE MEDIA & DATA ---
+*.mp4
+*.avi
+*.mov
+*.wav
+*.mp3
+dataset/
+data/
+
+# --- IGNORE SYSTEM ---
+__pycache__/
+.ipynb_checkpoints/
+video_fusion/
+venv/
+env/
+.env
